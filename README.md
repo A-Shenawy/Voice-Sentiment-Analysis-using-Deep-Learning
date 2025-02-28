@@ -2,6 +2,7 @@
 <img src="https://github.com/A-Shenawy/Voice-Sentiment-Analysis/blob/main/VSA.PNG" width="100%" style="background-size: cover;">
 
 🚀 Voice Sentiment Analysis Using Deep Learning
+
 📌 Project Overview
 This project aims to classify emotions from voice recordings using deep learning techniques. Human speech carries rich emotional cues, and analyzing these can enhance human-computer interaction, mental health monitoring, and customer experience analysis. The model is trained on the EYASE dataset, which contains Arabic voice samples labeled with emotions: happy, sad, angry, and neutral.
 
