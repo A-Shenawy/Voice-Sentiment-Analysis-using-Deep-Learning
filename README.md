@@ -25,6 +25,7 @@ Data augmentation techniques applied: Noise addition, pitch shifting
 Final dataset after augmentation: 1,626 audio samples
 
 🛠️ Methodology
+
 1️⃣ Data Preprocessing & Augmentation
 Padding & truncating: Standardizing audio length.
 Data augmentation:
@@ -43,7 +44,9 @@ Dense Layers → Classifies the emotions.
 4️⃣ Training & Validation
 Train-test split: 80% training, 20% testing.
 Cross-validation: 5-Fold K-Fold validation to ensure robustness.
+
 📈 Results & Performance
+
 Initial Model Accuracy: 86.76%
 Confusion Matrix Analysis:
 High precision & recall for Angry and Sad classes.
@@ -55,37 +58,17 @@ Average Recall: 87.7%
 Average Precision: 87.92%
 
 📌 Future Improvements
+
 Optimize model architecture for better generalization.
 Explore transformer-based models (e.g., Wav2Vec2, Whisper) for speech processing.
 Integrate emotion detection with real-time applications (e.g., chatbots, virtual assistants).
+
 📦 Installation & Usage
+
 🔧 Prerequisites
-Make sure you have the following installed:
 
 Python 3.x
 TensorFlow / PyTorch
 Librosa (for audio processing)
 NumPy, Pandas, Matplotlib
 Jupyter Notebook (optional)
-🚀 Steps to Run the Project
-1️⃣ Clone the repository:
-
-bash
-git clone https://github.com/A-Shenawy/Voice-Sentiment-Analysis.git
-cd Voice-Sentiment-Analysis
-2️⃣ Install dependencies:
-
-bash
-pip install -r requirements.txt
-3️⃣ Run the Jupyter Notebook or Python script for training:
-
-bash
-jupyter notebook
-# OR
-python train_model.py
-📜 Citation & Credits
-Dataset: EYASE Arabic Voice Sentiment Dataset
-Author: Ahmed AbdElhamid Shenawy
-Technologies Used: Python, TensorFlow, Keras, Librosa, Matplotlib
-🌟 Contributions & Feedback
-Feel free to contribute by opening issues, submitting pull requests, or providing feedback! 🚀
