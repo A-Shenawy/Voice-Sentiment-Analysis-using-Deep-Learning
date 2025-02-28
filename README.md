@@ -10,6 +10,7 @@ Develop a CNN-based deep learning model to classify emotions from speech.
 Preprocess and augment voice data to improve model generalization.
 Extract Mel-Spectrogram features for deep learning-based classification.
 Evaluate model performance using accuracy, F1-score, precision, and recall.
+
 📊 Dataset Details
 Total audio files: 579
 Sentiment classes:
@@ -21,6 +22,7 @@ Average sample rate: 44.1 KHz
 Average audio duration: 2.33 sec
 Data augmentation techniques applied: Noise addition, pitch shifting
 Final dataset after augmentation: 1,626 audio samples
+
 🛠️ Methodology
 1️⃣ Data Preprocessing & Augmentation
 Padding & truncating: Standardizing audio length.
@@ -50,6 +52,7 @@ Average Accuracy: 87.7%
 Average F1 Score: 87.63%
 Average Recall: 87.7%
 Average Precision: 87.92%
+
 📌 Future Improvements
 Optimize model architecture for better generalization.
 Explore transformer-based models (e.g., Wav2Vec2, Whisper) for speech processing.
