@@ -71,4 +71,4 @@ Python 3.x
 TensorFlow / PyTorch
 Librosa (for audio processing)
 NumPy, Pandas, Matplotlib
-Jupyter Notebook (optional)
+Jupyter Notebook
