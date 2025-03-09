@@ -8,10 +8,10 @@
 This project aims to classify **emotions from voice recordings** using **deep learning techniques**. Human speech carries rich emotional cues, and analyzing these can enhance **human-computer interaction, mental health monitoring, and customer experience analysis**. The model is trained on the **EYASE dataset**, which contains **Arabic voice samples** labeled with emotions: **happy, sad, angry, and neutral**.  
 
 ### **🎯 Key Objectives**  
-✅ Develop a **CNN-based deep learning model** to classify emotions from speech.  
-✅ Preprocess and **augment** voice data to improve model generalization.  
-✅ Extract **Mel-Spectrogram** features for deep learning-based classification.  
-✅ Evaluate model performance using **accuracy, F1-score, precision, and recall**.  
+👉 Develop a **CNN-based deep learning model** to classify emotions from speech.  
+👉 Preprocess and **augment** voice data to improve model generalization.  
+👉 Extract **Mel-Spectrogram** features for deep learning-based classification.  
+👉 Evaluate model performance using **accuracy, F1-score, precision, and recall**.  
 
 ---
 
@@ -49,6 +49,8 @@ This project aims to classify **emotions from voice recordings** using **deep le
 🔹 **Flatten Layer** → Converts 2D features to 1D.  
 🔹 **Dense Layers** → Classifies the emotions.  
 
+<img src="https://github.com/A-Shenawy/Voice-Sentiment-Analysis-using-Deep-Learning/blob/main/CNN%20Model.PNG" width="100%" style="background-size: cover;">
+
 ### **4️⃣ Training & Validation**  
 🔹 **Train-test split**: **80% training, 20% testing**.  
 🔹 **Cross-validation**: **5-Fold K-Fold validation** to ensure robustness.  
@@ -56,12 +58,12 @@ This project aims to classify **emotions from voice recordings** using **deep le
 ---
 
 ## **📈 Results & Performance**  
-📌 **Initial Model Accuracy**: **86.76%**  
-📌 **Confusion Matrix Analysis**:  
+📚 **Initial Model Accuracy**: **86.76%**  
+📚 **Confusion Matrix Analysis**:  
    - **High precision & recall** for Angry and Sad classes.  
    - **Slight misclassification** in Neutral vs. Happy classes.  
 
-📌 **K-Fold Cross-Validation Scores**:  
+📚 **K-Fold Cross-Validation Scores**:  
    - **Average Accuracy**: **87.7%**  
    - **Average F1 Score**: **87.63%**  
    - **Average Recall**: **87.7%**  
@@ -82,12 +84,13 @@ This project aims to classify **emotions from voice recordings** using **deep le
 Make sure you have the following installed:  
 - 🐍 Python 3.x  
 - 🤖 TensorFlow / PyTorch  
-- 🎵 Librosa (for audio processing)  
+- 🎧 Librosa (for audio processing)  
 - 📊 NumPy, Pandas, Matplotlib  
-- 📓 Jupyter Notebook  
+- 📚 Jupyter Notebook  
 
 ### **🚀 Steps to Run the Project**  
 1️⃣ **Clone the repository**  
    ```bash
    git clone https://github.com/A-Shenawy/Voice-Sentiment-Analysis.git
    cd Voice-Sentiment-Analysis
+   ```
